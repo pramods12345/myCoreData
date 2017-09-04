@@ -76,7 +76,7 @@ class ViewController: UIViewController {
         //request.sortDescriptors = [sortDescriptor]
         
         do {
-            let objects = try context.fetch(request)
+            let objects = try context.fetch(request) 
              studentArray = objects
            // print(objects)
 //            for item in objects {
