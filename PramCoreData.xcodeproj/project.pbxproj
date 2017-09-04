@@ -13,6 +13,13 @@
 		492069D21F599DE3002CECC3 /* PramCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 492069D01F599DE3002CECC3 /* PramCoreData.xcdatamodeld */; };
 		492069D41F599DE3002CECC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 492069D31F599DE3002CECC3 /* Assets.xcassets */; };
 		492069D71F599DE3002CECC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 492069D51F599DE3002CECC3 /* LaunchScreen.storyboard */; };
+		492069E01F599E03002CECC3 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 492069DF1F599E03002CECC3 /* CoreData.framework */; };
+		492069E81F59AA20002CECC3 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492069E71F59AA20002CECC3 /* TableViewController.swift */; };
+		493B92DF1F5D3FB4006F333F /* Student+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493B92DB1F5D3FB4006F333F /* Student+CoreDataClass.swift */; };
+		493B92E01F5D3FB4006F333F /* Student+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493B92DC1F5D3FB4006F333F /* Student+CoreDataProperties.swift */; };
+		493B92E11F5D3FB4006F333F /* Branch+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493B92DD1F5D3FB4006F333F /* Branch+CoreDataClass.swift */; };
+		493B92E21F5D3FB4006F333F /* Branch+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493B92DE1F5D3FB4006F333F /* Branch+CoreDataProperties.swift */; };
+		493B92E41F5D4AA0006F333F /* CollegeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493B92E31F5D4AA0006F333F /* CollegeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +31,13 @@
 		492069D31F599DE3002CECC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		492069D61F599DE3002CECC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		492069D81F599DE3002CECC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		492069DF1F599E03002CECC3 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		492069E71F59AA20002CECC3 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		493B92DB1F5D3FB4006F333F /* Student+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Student+CoreDataClass.swift"; path = "../Student+CoreDataClass.swift"; sourceTree = "<group>"; };
+		493B92DC1F5D3FB4006F333F /* Student+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Student+CoreDataProperties.swift"; path = "../Student+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		493B92DD1F5D3FB4006F333F /* Branch+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Branch+CoreDataClass.swift"; path = "../Branch+CoreDataClass.swift"; sourceTree = "<group>"; };
+		493B92DE1F5D3FB4006F333F /* Branch+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Branch+CoreDataProperties.swift"; path = "../Branch+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		493B92E31F5D4AA0006F333F /* CollegeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollegeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				492069E01F599E03002CECC3 /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +57,7 @@
 			children = (
 				492069C81F599DE3002CECC3 /* PramCoreData */,
 				492069C71F599DE3002CECC3 /* Products */,
+				492069DE1F599E03002CECC3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,8 +72,14 @@
 		492069C81F599DE3002CECC3 /* PramCoreData */ = {
 			isa = PBXGroup;
 			children = (
+				493B92DB1F5D3FB4006F333F /* Student+CoreDataClass.swift */,
+				493B92DC1F5D3FB4006F333F /* Student+CoreDataProperties.swift */,
+				493B92DD1F5D3FB4006F333F /* Branch+CoreDataClass.swift */,
+				493B92DE1F5D3FB4006F333F /* Branch+CoreDataProperties.swift */,
 				492069C91F599DE3002CECC3 /* AppDelegate.swift */,
 				492069CB1F599DE3002CECC3 /* ViewController.swift */,
+				492069E71F59AA20002CECC3 /* TableViewController.swift */,
+				493B92E31F5D4AA0006F333F /* CollegeViewController.swift */,
 				492069CD1F599DE3002CECC3 /* Main.storyboard */,
 				492069D31F599DE3002CECC3 /* Assets.xcassets */,
 				492069D51F599DE3002CECC3 /* LaunchScreen.storyboard */,
@@ -65,6 +87,14 @@
 				492069D01F599DE3002CECC3 /* PramCoreData.xcdatamodeld */,
 			);
 			path = PramCoreData;
+			sourceTree = "<group>";
+		};
+		492069DE1F599E03002CECC3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				492069DF1F599E03002CECC3 /* CoreData.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,9 +169,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				493B92E01F5D3FB4006F333F /* Student+CoreDataProperties.swift in Sources */,
 				492069CC1F599DE3002CECC3 /* ViewController.swift in Sources */,
+				492069E81F59AA20002CECC3 /* TableViewController.swift in Sources */,
+				493B92E21F5D3FB4006F333F /* Branch+CoreDataProperties.swift in Sources */,
+				493B92E41F5D4AA0006F333F /* CollegeViewController.swift in Sources */,
+				493B92E11F5D3FB4006F333F /* Branch+CoreDataClass.swift in Sources */,
 				492069D21F599DE3002CECC3 /* PramCoreData.xcdatamodeld in Sources */,
 				492069CA1F599DE3002CECC3 /* AppDelegate.swift in Sources */,
+				493B92DF1F5D3FB4006F333F /* Student+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,6 +341,7 @@
 				492069DD1F599DE3002CECC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
